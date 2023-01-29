@@ -1,0 +1,147 @@
+body{
+    font-family: "Monserrat";
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+h1 {
+
+    font-family: "Montserrat";
+  
+
+    font-size: 3.5rem;
+  
+
+  
+    line-height: 1.5;
+  
+}  
+.container-fluid{
+    padding:3% 15%
+}
+.navbar{
+    padding: 0 0 2.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Monserrat-light";
+
+}
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+.title-image{
+    width: 60%;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 30%;
+    
+
+}
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.features-box{
+    text-align: center;
+    padding: 5%;
+}
+h3{
+    font-family: "Monserrat-bold";
+    font-weight: bold;
+}
+p{
+    color: grey;
+}
+.check{
+    color: #ff4c68;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.check:hover{
+    color: aqua;
+}
+#testimonials{
+    
+    text-align: center;
+    background-color:  #ff4c68;
+    color: white;
+}
+h2{
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#press{
+    background-color:  #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin:20px
+}
+.press-image{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+#pricing{
+    padding: 100px;
+    text-align: center;
+    font-style: "Montserrat-Black";
+}
+.pricing-col{
+    padding: 3% 2%;
+}
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+
+    }
+    #title{
+        text-align: center;
+    }
+}
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
+    
+    font-family: "Montserrat-black";
+}
+h3{
+    padding-bottom: 3%;
+    font-size: 3rem;
+    padding: 0 3px 0;
+}
+#footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+.lil-icons{
+    padding:0 8px 0;
+    padding-bottom: 8px;
+}
